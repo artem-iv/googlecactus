@@ -1,0 +1,36 @@
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+#restart {
+  width: 100%;
+  height: 100%;
+  display: none;
+  top: 0;
+  align-items: center;
+  position: absolute;
+  margin: 0 auto;
+  z-index: 100;
+}
+button {
+  display: block;
+
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 50px;
+  background: red;
+  color: white;
+}
+.timer-block {
+  display: block;
+  position: absolute;
+  top: 0;
+
+  width: 100px;
+  height: 50px;
+  margin-left: 25%;
+  font-size: 25px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
